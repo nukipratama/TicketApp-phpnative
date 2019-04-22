@@ -1,0 +1,123 @@
+[24-Mar-2019 19:17:35 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 181
+[24-Mar-2019 19:22:27 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 181
+[24-Mar-2019 19:25:26 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 178
+[24-Mar-2019 19:25:54 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 178
+[24-Mar-2019 19:26:12 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:26:13 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:26:13 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:27:05 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:27:06 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:27:06 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:27:06 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 181
+[24-Mar-2019 19:29:42 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:29:42 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:29:42 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:29:43 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 19:33:39 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 19:56:41 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:56:42 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 19:56:42 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 103
+[24-Mar-2019 20:01:10 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:01:40 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:05:00 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:05:54 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:06:20 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:08:16 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:09:37 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:10:40 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:12:16 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/telkomu1/public_html/script/db/book_insert.php:82) in /home/telkomu1/public_html/script/db/book_insert.php on line 182
+[24-Mar-2019 20:13:56 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/db/book_insert.php(129): require()
+#1 /home/telkomu1/public_html/script/db/book_insert.php(82): user_insert('RUN_24032019_5c...', 'nukipratamaa@gm...', 'nukipratamaa@gm...', 'Sukapura', '12', 'male', '12', '', 'upload/RUN_2403...', 'TUHM_24032019_5...')
+#2 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:15:14 Asia/Bangkok] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/telkomu1/public_html/script/mailer/PHPMailerAutoload.php on line 45
+[24-Mar-2019 20:28:22 Asia/Bangkok] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/telkomu1/public_html/script/mailer/PHPMailerAutoload.php on line 45
+[24-Mar-2019 21:14:23 Asia/Bangkok] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/telkomu1/public_html/script/mailer/PHPMailerAutoload.php on line 45
+[24-Mar-2019 21:51:39 Asia/Bangkok] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/telkomu1/public_html/script/mailer/PHPMailerAutoload.php on line 45
+[24-Mar-2019 21:57:59 Asia/Bangkok] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/telkomu1/public_html/script/mailer/PHPMailerAutoload.php on line 45
+[25-Mar-2019 05:31:55 Asia/Bangkok] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/telkomu1/public_html/script/mailer/PHPMailerAutoload.php on line 45
+[01-Apr-2019 18:55:50 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[01-Apr-2019 18:55:50 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[01-Apr-2019 18:55:50 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[01-Apr-2019 13:52:30 UTC] PHP Notice:  Undefined index: medical in /home/telkomu1/public_html/script/db/book_insert.php on line 21
+[01-Apr-2019 13:52:30 UTC] PHP Notice:  Undefined index: community in /home/telkomu1/public_html/script/db/book_insert.php on line 23
+[01-Apr-2019 13:52:30 UTC] PHP Notice:  Undefined index: baju in /home/telkomu1/public_html/script/db/book_insert.php on line 25
+[01-Apr-2019 13:52:30 UTC] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home/telkomu1/public_html/script/db/book_insert.php on line 82
+[01-Apr-2019 13:52:30 UTC] PHP Warning:  Use of undefined constant location - assumed 'location' (this will throw an Error in a future version of PHP) in /home/telkomu1/public_html/script/db/book_insert.php on line 82
+[01-Apr-2019 13:52:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home/telkomu1/public_html/script/db/book_insert.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/telkomu1/public_html/script/db/book_insert.php on line 82
+[01-Apr-2019 22:11:17 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[01-Apr-2019 22:11:17 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[01-Apr-2019 22:11:17 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[02-Apr-2019 10:28:56 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[02-Apr-2019 10:28:56 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[02-Apr-2019 10:28:56 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[02-Apr-2019 13:48:41 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[02-Apr-2019 13:48:41 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[02-Apr-2019 13:48:41 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[02-Apr-2019 14:18:05 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[02-Apr-2019 14:18:05 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[02-Apr-2019 14:18:05 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[02-Apr-2019 15:19:23 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[02-Apr-2019 15:19:23 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[02-Apr-2019 15:19:23 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[02-Apr-2019 11:29:44 UTC] PHP Notice:  Undefined variable: foto_identitas in /home/telkomu1/public_html/script/db/book_insert.php on line 86
+[03-Apr-2019 09:57:14 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[03-Apr-2019 09:57:14 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[03-Apr-2019 09:57:14 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[04-Apr-2019 13:27:40 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[04-Apr-2019 13:27:40 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[04-Apr-2019 13:27:40 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[04-Apr-2019 13:41:52 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[04-Apr-2019 13:41:52 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[04-Apr-2019 13:41:52 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[04-Apr-2019 14:20:37 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[04-Apr-2019 14:20:37 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[04-Apr-2019 14:20:37 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[04-Apr-2019 21:11:06 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[04-Apr-2019 21:11:06 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[04-Apr-2019 21:11:06 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[05-Apr-2019 09:30:21 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php:1431
+Stack trace:
+#0 /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php(1369): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/telkomu1/public_html/script/db/book_insert.php(176): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/telkomu1/public_html/script/db/book_insert.php(93): mailer('Muhamad rizki e...', 'Early Bird 1', '21K', 250, 1, 'esarizki5@gmail', 'TUHM_05042019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php on line 1431
+[05-Apr-2019 09:30:29 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php:1431
+Stack trace:
+#0 /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php(1369): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/telkomu1/public_html/script/db/book_insert.php(176): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/telkomu1/public_html/script/db/book_insert.php(93): mailer('Muhamad rizki e...', 'Early Bird 1', '21K', 250, 1, 'esarizki5@gmail', 'TUHM_05042019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php on line 1431
+[05-Apr-2019 09:30:52 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php:1431
+Stack trace:
+#0 /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php(1369): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/telkomu1/public_html/script/db/book_insert.php(176): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/telkomu1/public_html/script/db/book_insert.php(93): mailer('Muhamad rizki e...', 'Early Bird 1', '21K', 250, 1, 'esarizki5@gmail', 'TUHM_05042019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php on line 1431
+[05-Apr-2019 15:00:16 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[05-Apr-2019 15:00:16 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[05-Apr-2019 15:00:16 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[05-Apr-2019 19:59:26 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php:1431
+Stack trace:
+#0 /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php(1369): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/telkomu1/public_html/script/db/book_insert.php(176): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/telkomu1/public_html/script/db/book_insert.php(93): mailer('Muhamad rizki e...', 'Early Bird 1', '21K', 250, 1, 'esarizki5@gmail', 'TUHM_05042019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/PHPMailer/src/PHPMailer.php on line 1431
+[06-Apr-2019 14:24:49 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[06-Apr-2019 14:24:49 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[06-Apr-2019 14:24:49 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[06-Apr-2019 16:38:56 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[06-Apr-2019 16:38:56 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[06-Apr-2019 16:38:56 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90

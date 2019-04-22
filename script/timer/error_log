@@ -1,0 +1,841 @@
+[24-Mar-2019 20:13:36 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:37 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:38 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:39 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:40 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:41 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:42 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:43 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:44 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:45 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:46 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:48 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:49 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:50 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:51 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:52 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:53 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:54 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:56 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:55 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:57 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:58 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:13:59 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:00 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:01 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:02 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:03 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:04 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:05 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:07 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:08 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:09 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:10 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:11 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:12 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:12 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:14 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:15 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:16 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:17 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:19 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:20 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:21 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:22 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:23 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:24 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:25 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:26 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:27 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:28 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:29 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:30 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:31 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:32 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:33 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:34 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:36 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:37 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:38 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:39 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:40 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:41 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:42 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:43 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:44 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:45 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:46 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:48 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:49 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:50 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:51 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:52 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:53 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:54 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:55 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:56 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:57 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:58 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:14:59 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:15:00 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:15:01 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[24-Mar-2019 20:15:02 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/telkomu1/public_html/script/db/db.php:3
+Stack trace:
+#0 /home/telkomu1/public_html/script/timer/book_timer.php(21): require()
+#1 /home/telkomu1/public_html/script/timer/book_timer.php(5): checkTIME('TUHM_24032019_5...')
+#2 /home/telkomu1/public_html/script/timer/book_timer.php(38): timestampdiff('TUHM_24032019_5...')
+#3 {main}
+  thrown in /home/telkomu1/public_html/script/db/db.php on line 3
+[01-Apr-2019 13:19:56 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:19:57 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:19:58 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:19:59 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:00 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:01 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:02 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:03 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:04 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:05 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:06 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:07 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:08 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:09 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:10 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:11 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:12 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:13 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:14 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:15 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:16 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:17 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:18 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:19 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:20 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:21 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:22 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:23 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:24 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:25 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:26 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:27 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:28 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:29 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:30 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:31 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:32 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:33 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:34 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:35 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:36 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:37 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:39 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:40 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:41 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:42 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:43 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[01-Apr-2019 13:20:44 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/telkomu1/public_html/script/db/db.php on line 4
+[02-Apr-2019 03:57:50 UTC] PHP Warning:  include(page_header.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_expired.php on line 2
+[02-Apr-2019 03:57:50 UTC] PHP Warning:  include(page_header.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_expired.php on line 2
+[02-Apr-2019 03:57:50 UTC] PHP Warning:  include(): Failed opening 'page_header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/telkomu1/public_html/script/timer/page_expired.php on line 2
+[02-Apr-2019 03:57:50 UTC] PHP Warning:  include(page_footer.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_expired.php on line 21
+[02-Apr-2019 03:57:50 UTC] PHP Warning:  include(page_footer.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_expired.php on line 21
+[02-Apr-2019 03:57:50 UTC] PHP Warning:  include(): Failed opening 'page_footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/telkomu1/public_html/script/timer/page_expired.php on line 21
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(script/timer/book_timer.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_exist.php on line 2
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(script/timer/book_timer.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_exist.php on line 2
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(): Failed opening 'script/timer/book_timer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/telkomu1/public_html/script/timer/page_exist.php on line 2
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(page_header.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_exist.php on line 3
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(page_header.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_exist.php on line 3
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(): Failed opening 'page_header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/telkomu1/public_html/script/timer/page_exist.php on line 3
+[02-Apr-2019 03:58:20 UTC] PHP Notice:  Undefined variable: bookid in /home/telkomu1/public_html/script/timer/page_exist.php on line 6
+[02-Apr-2019 03:58:20 UTC] PHP Notice:  Undefined variable: status in /home/telkomu1/public_html/script/timer/page_exist.php on line 12
+[02-Apr-2019 03:58:20 UTC] PHP Notice:  Undefined variable: status in /home/telkomu1/public_html/script/timer/page_exist.php on line 174
+[02-Apr-2019 03:58:20 UTC] PHP Notice:  Undefined variable: status in /home/telkomu1/public_html/script/timer/page_exist.php on line 212
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(page_footer.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_exist.php on line 264
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(page_footer.php): failed to open stream: No such file or directory in /home/telkomu1/public_html/script/timer/page_exist.php on line 264
+[02-Apr-2019 03:58:20 UTC] PHP Warning:  include(): Failed opening 'page_footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/telkomu1/public_html/script/timer/page_exist.php on line 264
+[02-Apr-2019 15:27:28 Asia/Bangkok] PHP Warning:  Illegal string offset 'tanggal' in /home/telkomu1/public_html/script/timer/book_timer.php on line 5
+[04-Apr-2019 00:45:17 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[04-Apr-2019 00:45:18 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[04-Apr-2019 00:45:18 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[04-Apr-2019 00:45:19 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[04-Apr-2019 00:45:20 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[05-Apr-2019 18:17:59 Asia/Bangkok] PHP Warning:  Illegal string offset 'tanggal' in /home/telkomu1/public_html/script/timer/book_timer.php on line 5
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:39 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:40 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:41 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:42 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:43 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:44 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:45 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:46 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:47 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:48 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:49 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:50 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:51 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:52 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:53 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:54 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:55 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:56 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:57 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:58 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:17:59 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:00 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:01 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:02 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:03 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:04 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:05 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:06 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:07 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:08 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:09 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:10 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:11 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:12 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:13 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:14 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:15 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:16 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:17 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:18 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:19 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:20 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:21 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:22 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:23 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:24 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:25 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:26 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:27 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:28 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:29 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:30 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:31 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:32 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:33 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:34 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:35 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:36 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:37 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:39 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:40 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:41 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:42 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:43 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:44 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:45 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:46 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:47 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:48 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:49 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:50 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:51 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:52 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:53 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:54 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:55 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:56 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:57 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:58 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:18:59 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:00 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:01 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:02 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:03 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:04 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:05 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:06 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:07 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:08 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:09 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:10 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:11 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:12 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:13 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:14 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:15 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:16 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:17 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:18 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:19 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:20 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:21 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:22 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:23 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:24 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:25 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:26 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:27 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:28 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:29 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:30 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:31 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:32 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:33 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:34 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:35 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:36 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:37 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:38 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:39 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:40 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:41 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:42 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:43 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:44 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:45 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:46 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:47 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:48 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:49 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:50 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:51 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[08-Apr-2019 12:19:52 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/telkomu1/public_html/script/db/db.php on line 3
+[12-Apr-2019 09:47:50 Asia/Bangkok] PHP Warning:  Illegal string offset 'tanggal' in /home/telkomu1/public_html/script/timer/book_timer.php on line 5

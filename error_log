@@ -1,0 +1,7 @@
+[15-Apr-2019 17:09:04 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[15-Apr-2019 17:09:04 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[15-Apr-2019 17:09:05 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[15-Apr-2019 17:09:12 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[15-Apr-2019 17:09:13 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[15-Apr-2019 17:09:15 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
+[15-Apr-2019 17:09:15 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/telkomu1/public_html/script/db/db.php on line 3
