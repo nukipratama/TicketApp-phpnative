@@ -19,7 +19,6 @@ $bookid = $_SESSION['bookid'];?>
     <h4>Nama Pemesan : <b><?=$nama?></b></h4>
     <h4>Jenis / Kategori : <b><?=$jenis . ' / ' . $kategori?></b></h4>
     <h4>Jumlah Tiket : <b><?=$jumlah?> Tiket</b></h4>
-    <h4>Total Pembayaran : <b>Rp <?=$harga * $jumlah?>.000 (Rp <?=$harga?>.000 / pcs)</b></h4>
     <hr style="background-color:gray;">
     <h4>Batas waktu pembayaran adalah 24 jam setelah menerima email ini, jika tidak melakukan pembayaran dan
         mengunggah bukti pembayaran pada batas waktu maka pemesanan akan dibatalkan secara otomatis.</h4>
