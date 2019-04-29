@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['bookid'])) {
-    echo $_POST['bookid'];
+    // echo $_POST['bookid'];
     if ($_FILES['imgInp']["name"] == '') {
         // echo '<br>no image,data ke-' . ($key + 1);
     }
@@ -12,7 +12,7 @@ if (isset($_POST['bookid'])) {
         if (isset($_POST["submit"])) {
             $check = getimagesize($_FILES["imgInp"]["tmp_name"]);
             if ($check !== false) {
-                echo "File is an image - " . $check["mime"] . ".";
+                // echo "File is an image - " . $check["mime"] . ".";
                 $uploadOk = 1;
             } else {
                 ?>
@@ -54,13 +54,13 @@ header("Location:order");
             if (move_uploaded_file($_FILES["imgInp"]["tmp_name"], $target_dir . $_POST['bookid'] . '.' . strtolower(pathinfo($target_file, PATHINFO_EXTENSION)))) {
                 $foto_identitas = "upload/invoice/" . $_POST['bookid'] . "." . strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
                 $array = jumlahBID($_POST['bookid']);
-                echo updateInvoice($foto_identitas, $_POST['bookid']);
-                echo updateTiket($array['jumlah'], $array['jenis'], $array['kategori']);
-                
+                updateInvoice($foto_identitas, $_POST['bookid']);
+                updateTiket($array['jumlah'], $array['jenis'], $array['kategori']);
+
                 header("Location:invoice?bid=" . $_POST['bookid']);
             } else {
-                echo "Sorry, there was an error uploading your file.";
-                window . location . replace('order');
+                // echo "Sorry, there was an error uploading your file.";
+                header("Location:order");
             }
         }
     }
