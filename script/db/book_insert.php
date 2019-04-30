@@ -26,7 +26,7 @@ if (isset($_POST['name'])) {
 
     for ($key = 0; $key < count($_POST['name']); $key++) {
         if ($_FILES['imgInp']["name"][$key] == '') {
-            echo '<br>no image,data ke-' . ($key + 1);
+            // echo '<br>no image,data ke-' . ($key + 1);
         }
         if ($_FILES['imgInp']["name"][$key] !== '') {
             $target_dir[$key] = "../../upload/";
@@ -36,7 +36,7 @@ if (isset($_POST['name'])) {
             if (isset($_POST["submit"])) {
                 $check[$key] = getimagesize($_FILES["imgInp"]["tmp_name"][$key]);
                 if ($check[$key] !== false) {
-                    echo "File is an image - " . $check["mime"][$key] . ".";
+                    // echo "File is an image - " . $check["mime"][$key] . ".";
                     $uploadOk[$key] = 1;
                 } else {
                     ?>
@@ -78,19 +78,19 @@ header('Location:order');
                 if (move_uploaded_file($_FILES["imgInp"]["tmp_name"][$key], $target_dir[$key] . $_POST['uid'][$key] . '.' . strtolower(pathinfo($target_file[$key], PATHINFO_EXTENSION)))) {
                     $foto_identitas[$key] = "upload/" . $uid[$key] . "." . strtolower(pathinfo($target_file[$key], PATHINFO_EXTENSION));
                 } else {
-                    echo "Sorry, there was an error uploading your file.";
+                    // echo "Sorry, there was an error uploading your file.";
                     window . location . replace('order');
                 }
             }
         }
-        echo user_insert($uid[$key], $name[$key], $email[$key], $address[$key], $phone[$key], $gender[$key], $age[$key], $medical[$key], $foto_identitas[$key], $bookid, $emergency[$key], $community[$key], $identity[$key], $baju[$key]);
+        user_insert($uid[$key], $name[$key], $email[$key], $address[$key], $phone[$key], $gender[$key], $age[$key], $medical[$key], $foto_identitas[$key], $bookid, $emergency[$key], $community[$key], $identity[$key], $baju[$key]);
     }
     $jenis = check($_SESSION['secret'])['jenis'];
     $kategori = check($_SESSION['secret'])['kategori'];
     $harga = check($_SESSION['secret'])['harga'];
     $jumlah = count($uid);
-    echo book_insert($jenis, $kategori, $harga, $jumlah, $book_email, $bookid, $uid);
-    echo mailer($name[0], $jenis, $kategori, $harga, $jumlah, $book_email, $bookid);
+    book_insert($jenis, $kategori, $harga, $jumlah, $book_email, $bookid, $uid);
+    mailer($name[0], $jenis, $kategori, $harga, $jumlah, $book_email, $bookid);
 } else {
     header('Location:order');
 }
@@ -174,14 +174,15 @@ function mailer($nama, $jenis, $kategori, $harga, $jumlah, $book_email, $bookid)
     // $mail->Body = '<b>MASUK DEH</b>';
     // $mail->send();
     if (!$mail->send()) {
-        echo 'Pesan tidak dapat dikirim.';
-        echo 'Mailer Error: ' . $mail->ErrorInfo;
+        // echo 'Pesan tidak dapat dikirim.';
+        // echo 'Mailer Error: ' . $mail->ErrorInfo;
         session_destroy();
         header('Location:order');
     } else {
         $_SESSION['book_mail'] = $book_email;
-        header("location:success");
-        echo 'sent';
+        header("Location:success");
+        // echo 'sent';
     }
-    echo 'worked';
+    header("Location:success");
+    // echo 'worked';
 }

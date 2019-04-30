@@ -2,9 +2,17 @@
 include 'script/timer/book_timer.php';
 include 'page_header.php';
 
+function harga($returnBID)
+{
+    $harga = ($returnBID['harga_pcs'] * $returnBID['jumlah'] * 1000) + $returnBID['no'];
+    $harga = (int) $harga;
+    $harga = 'Rp ' . number_format($harga, 0, ".", ".");
+    // $harga = money_format('%.0n', $harga);
+    return $harga;
+}
 ?>
 <p id='bid' hidden><?=$bookid?></p>
-<div class="container mt-5">
+<div class="container-fluid mt-5">
     <div class="row justify-content-md-center">
         <div class="col-lg-12 mt-3">
             <br>
@@ -24,8 +32,9 @@ include 'page_header.php';
                     </div>
                 </div>
             </div>
+
             <div class="row justify-content-md-center mt-3">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-5 text-center">
                     <h4 class="card-title text-center text-uppercase">Sisa Waktu Pembayaran</h4>
                     <hr>
                     <div class="alert alert-secondary" role="alert">
@@ -37,9 +46,7 @@ include 'page_header.php';
                     </div>
                 </div>
 
-
-
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-5 text-center">
                     <h4 class="card-title text-center text-uppercase">Unggah Bukti Pembayaran</h4>
                     <hr>
                     <div class="alert alert-secondary" role="alert">
@@ -68,49 +75,61 @@ include 'page_header.php';
                                     </center>
                                 </form>
                             </div>
-
                         </div>
                     </div>
                 </div>
+
+
+
+
             </div>
 
             <div class="row justify-content-md-center mt-3">
-                <div class="col-lg-6">
-                    <h4 class="card-title text-center text-uppercase">Cara Pembayaran</h4>
+
+                <div class="col-lg-4">
+                    <h4 class="card-title text-center text-uppercase">Total Pembayaran</h4>
                     <hr>
                     <h6 class="card-title text-center ">Silahkan melakukan transfer dengan nominal</h6>
-                    <h5 class="card-title text-center "><b>Rp
-                            <?=$returnBID['harga_pcs'] * $returnBID['jumlah']?>.000;</b></h5>
-                    <h6 class="card-title text-center ">ke Rekening Tujuan berikut :</h6>
-                    <table class="table table-secondary text-center">
-                        <thead>
-                            <tr>
-                                <th scope="col">Nama Rekening</th>
-                                <th scope="col">Bank Tujuan</th>
-                                <th scope="col">Nomor Rekening</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Dzul Wulan Ningtyas</td>
-                                <td>Bank BNI</td>
-                                <td>700419980</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <h4 class="card-title text-center "><b><?=harga($returnBID)?>;</b>
+                    </h4>
+                    <h6 class="card-title text-center">*pastikan nominal sesuai hingga digit terakhir</h6>
                 </div>
 
+                <div class="col-lg-3">
+                    <h4 class="card-title text-center text-uppercase">Rekening Tujuan</h4>
+                    <hr>
+                    <div class="alert alert-secondary " role="alert">
+                        <div class="row">
+                            <table class="table text-center">
+                                <thead class=" thead-dark">
+                                    <tr>
+                                        <th scope="col">Nama Rekening</th>
+                                        <th scope="col">Bank Tujuan</th>
+                                        <th scope="col">Nomor Rekening</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dzul Wulan Ningtyas</td>
+                                        <td>Bank BNI</td>
+                                        <td>700419980</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-4 text-center">
                     <h4 class="card-title text-center text-uppercase">Informasi Pemesanan</h4>
                     <hr>
-                    <p class="card-title text-center">Klik Nama Peserta untuk melihat detail</p>
-                    <br>
-
+                    <p class="card-title text-center">Pilih Nama Peserta untuk melihat detail</p>
                     <?php
-// echo userBID($bookid);
+
         $returnUSER = userBID($bookid);
+
         for ($key = 0; $key < count($returnUSER['nama']); $key++) {
+
             ?>
                     <div class="row justify-content-center m-2">
                         <div class="col-lg-12 ">
@@ -146,7 +165,7 @@ switch ($returnUSER['gender'][$key]) {
                 case 'female':
                     echo 'Perempuan';
                     break;
-            } ?></b></h6>
+            }?></b></h6>
                                             <h6 class="text-left">Riwayat Penyakit :
                                                 <b><?=$returnUSER['medical'][$key]?></b></h6>
                                             <h6 class="text-left">Komunitas :
@@ -164,10 +183,11 @@ switch ($returnUSER['gender'][$key]) {
                         </div>
                     </div>
                     <?php
-        }
+}
         ?>
 
                 </div>
+
             </div>
             <?php
 break;
@@ -205,7 +225,7 @@ while ($dbGet2 = $result->fetch_assoc()) {
                 </div>
             </div>
             <?php
-        }
+}
         $stmt->close();
 
         break;
@@ -253,7 +273,7 @@ while ($dbGet2 = $result->fetch_assoc()) {
 
 
             <?php
-        }
+}
         break;
 }?>
         </div>
