@@ -10,14 +10,14 @@
                     <center>
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="" src="asset/img/Logo_Tel-U.png" style="width:15vh">
+                                <img class="" src="asset/img/Logo_Tel-U.png" style="width:60%">
                             </div>
                             <div class="col-lg-4">
-                                <img clas="" src="asset/img/logo telkom warna.png" style="width:20vh">
+                                <img clas="" src="asset/img/logo telkom warna.png" style="width:100%">
 
                             </div>
                             <div class="col-lg-4">
-                                <img class="" src="asset/img/logo-fast.png" style="width:25vh">
+                                <img class="" src="asset/img/logo-fast.png" style="width:100%">
                             </div>
                         </div>
 
