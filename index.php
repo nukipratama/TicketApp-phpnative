@@ -45,23 +45,22 @@ include 'page_header.php'
         <div class="row">
             <div class="col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                                       
-                     <h3 class="mb-3"> <i class="fas fa-running"></i> 7K Run</h3>
+
+                    <h3 class="mb-3"> <i class="fas fa-running"></i> 7K Run</h3>
                     <a class="portfolio-box img-fluid" href="asset/img/portfolio/fullsize/Maps 7.jpg">
-                    <img class="img-fluid" src="asset/img/Maps 7.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Click here
-                            </div>
-                            <div class="project-name">
-                                Rute 7k
+                        <img class="img-fluid" src="asset/img/Maps 7.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Click here
+                                </div>
+                                <div class="project-name">
+                                    Rute 7k
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>  
-                   
-                    <p class="text-muted mt-2">Perlombaan lari dengan jarak tempuh 7 kilometer. </p>
+                    </a>
+
                 </div>
             </div>
             <div class="col-md-6 text-center">
@@ -69,19 +68,19 @@ include 'page_header.php'
 
                     <h3 class="mb-3"> <i class="fas fa-running"></i> 21K Run</h3>
                     <a class="portfolio-box img-fluid" href="asset/img/portfolio/fullsize/Maps 21.jpg">
-                    <img class="img-fluid" src="asset/img/Maps 21.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Click here
-                            </div>
-                            <div class="project-name">
-                                Rute 21K / Half-marathon
+                        <img class="img-fluid" src="asset/img/Maps 21.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Click here
+                                </div>
+                                <div class="project-name">
+                                    Rute 21K / Half-marathon
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-                    <p class="text-muted mt-2">Perlombaan lari dengan jarak tempuh 21 kilometer. </p>
+                    </a>
+
                 </div>
             </div>
         </div>

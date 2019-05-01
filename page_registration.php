@@ -10,13 +10,13 @@ if ($_GET['qty'] > 0) {
 window.alert("max 10 tickets");
 window.location.replace("order");
 </script><?php
-    } elseif ($_GET['qty'] == '0') {
+} elseif ($_GET['qty'] == '0') {
         ?>
 <script>
 window.alert("Tickets cant 0");
 window.location.replace("order");
 </script><?php
-    } else {
+} else {
         if (isset($_GET['true'])) {
             $dbQuery = $dbConn->prepare("SELECT * FROM tiket WHERE idnya = ? AND kuota != 0");
             $dbQuery->bind_param("s", $_GET['true']);
@@ -88,7 +88,7 @@ $count = $_GET['qty'];
 for ($c = 0;
     $c < $count;
     $c++) {
-    $urutan = $c + 1; ?>
+    $urutan = $c + 1;?>
         <input type="hidden" name="uid[]" value="<?=uniqid("RUN_" . date("dmY_"))?>">
 
 
@@ -96,11 +96,11 @@ for ($c = 0;
         ?>
         <div class="row justify-content-center">
             <?php
-    } else {
+} else {
         ?>
             <div class="row justify-content-center mt-5 ">
                 <?php
-    } ?>
+}?>
                 <div class="col-md-8 order-md-1">
                     <hr>
                     <h4 class="card-title text-center text-uppercase">Data Peserta ke-<?=$urutan?></h4>
@@ -110,7 +110,7 @@ for ($c = 0;
                         akan digunakan untuk keperluan Telkom University Half Marathon 2019.
                         <br>*) Wajib diisi</p>
                     <?php
-    } ?>
+}?>
                     <hr>
                     <div class="row">
                         <div class="col-md-6 mb-3">
@@ -119,7 +119,8 @@ for ($c = 0;
                             <div class="invalid-feedback">
                                 Harap isi Nama Peserta.
                             </div>
-                            <small class="form-text text-muted">Nama Peserta yang akan berpartisipasi.<br>Harap isi sesuai Kartu Identitas.</small>
+                            <small class="form-text text-muted">Nama Peserta yang akan berpartisipasi.<br>Harap isi
+                                sesuai Kartu Identitas.</small>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="lastName">Email Peserta*</label>
@@ -128,7 +129,8 @@ for ($c = 0;
                             <div class="invalid-feedback">
                                 Harap isi Email Peserta.
                             </div>
-                            <small class="form-text text-muted">Email Peserta yang akan berpartisipasi.<br>Harap isi Alamat Email Aktif.</small>
+                            <small class="form-text text-muted">Email Peserta yang akan berpartisipasi.<br>Harap isi
+                                Alamat Email Aktif.</small>
                         </div>
                     </div>
                     <div class="mb-3">
@@ -301,7 +303,7 @@ for ($c = 0;
                                 <div class="tab-pane fade show active" id="nav-pendaftaran" role="tabpanel"
                                     aria-labelledby="nav-home-tab">
                                     <ol>
-                                        <li>Peserta memiliki identitas / tanda pengenal seperti (KTP/SIM/PASSPORT)</li>
+                                        <li>Peserta memiliki identitas / tanda pengenal seperti (KTP/SIM/PASSPORT/KK/KITAS)</li>
                                         <li>Peserta adalah warga Negara Indonesia dan warga Negara asing.
                                         </li>
                                         <li>Pendaftaran Peserta tidak dapat dialihnamakan dan bersifat final serta
@@ -324,92 +326,151 @@ for ($c = 0;
                                 </div>
                                 <div class="tab-pane fade show " id="nav-acara" role="tabpanel"
                                     aria-labelledby="nav-home-tab">
+                                    <h4 class="text-center">A. Ketentuan umum & lomba</h4>
                                     <ol>
-                                        <li>Peserta adalah warga Negara Indonesia dan warga Negara asing.
-                                        </li>
-                                        <li>Peserta yang tidak memiliki (BIB) dilarang masuk kedalam venue.</li>
-                                        <li>Batas waktu keterlambatan bagi peserta lomba hanya (½ jam) pada jam yang
-                                            telah ditentukan pada perhitungan awal.</li>
-                                        <li>Apabila hingga batas keterlambatan tersebut peserta belum hadir di tempat
-                                            pelaksanaan atau melebihi jam toleransi maka, peserta tidak diperbolehkan
-                                            mengikuti perlombaan.</li>
-                                        <li>Jika peserta tetap memaksa untuk mengikuti lomba dengan melebihi batas waktu
-                                            toleransi maka segala resiko di luar tanggungjawab panitia Telkom University
-                                            Half Marathon.</li>
-                                        <li>BIB peserta diberikan atau dapat di ambil H-2 oleh peserta sebelum acara
-                                            Telkom University Half Marathon berlangsung.</li>
-                                        <li>Berikut tertera waktu untuk pengambilan BIB peserta : </li>
-                                        <div class="ml-3">
-                                            <table class="table-responsive">
-                                                <tr>
-                                                    <th>Hari Pertama</th>
-                                                </tr>
-                                                <tr>
-                                                    <td>Hari/Tanggal</td>
-                                                    <td>:</td>
-                                                    <td>Jumat/13 September 2019</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pukul</td>
-                                                    <td>:</td>
-                                                    <td>16.00 hingga 21.00 WIB</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Tempat</td>
-                                                    <td>:</td>
-                                                    <td>Telkom Lembong Bandung, Jawa Barat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Hari Kedua</th>
-                                                </tr>
-                                                <tr>
-                                                    <td>Hari/Tanggal</td>
-                                                    <td>:</td>
-                                                    <td>Sabtu/14 September 2019</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pukul</td>
-                                                    <td>:</td>
-                                                    <td>13.00 hingga 00.00 WIB</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Tempat</td>
-                                                    <td>:</td>
-                                                    <td>Telkom Lembong Bandung, Jawa Barat</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                        <li>BIB tidak boleh hilang ataupun rusak.</li>
-                                        <li>Panitia menyediakan penitipan barang peserta dengan ketentuan dikenakan
-                                            biaya tambahan sebesar Rp. 50.000,-</li>
-                                        <li>Segala kerusakan dan kehilangan pada barang bawaan peserta yang dititipkan
-                                            kepada panitia adalah tanggungjawab panitia.</li>
+                                        <li>Pihak penyelenggara berhak untuk mengubah ketentuan dan kondisi yang berlaku
+                                            tanpa disertai
+                                            pemberitahuan terlebih dahulu.</li>
+                                        <li>Peserta menyetujui untuk memberikan informasi tentang kepesertaan yang
+                                            benar, akurat, terkini dan
+                                            menyeluruh, yang terdapat dalam formulir pendaftaran.</li>
+                                        <li>Pihak penyelenggara dapat menghubungi peserta sewaktu-waktu melalui surat
+                                            elektronik. Surat
+                                            pemberitahuan dikirim ke alamat surat elektronik yang terdaftar pada pihak
+                                            penyelenggara dan akan
+                                            disamakan dengan yang diterima oleh peserta.</li>
+                                        <li>Pihak penyelenggara memiliki hak untuk menutup pendaftaran sebelum tenggang
+                                            waktu tanpa pemberitahuan
+                                            terlebih dahulu ketika kuota lomba sudah penuh.</li>
+                                        <li>Apabila kegiatan/acara terpaksa dibatalkan dikarenakan hal diluar kontrol
+                                            (termasuk hujan deras, badai,
+                                            atau musibah, demonstrasi dsb), tidak ada pengembalian biaya pendaftaran dan
+                                            pihak penyelenggara tidak
+                                            bertanggung jawab atas kerugian atau ketidaknyamanan yang terjadi.</li>
+                                        <li>Pihak penyelenggara berhak untuk menghentikan perlombaan atau merubah rute
+                                            perlombaan.</li>
+                                        <li>Peserta wajib untuk mengetahui rute perlombaan, kesalahan rute merupakan
+                                            tanggung jawab peserta.</li>
+                                        <li>Pengelola berhak menetapkan batas waktu atau cut off time, pengelola akan
+                                            memberlakukan cut off time
+                                            sebagai berikut:<br>Cut off time 07.30 untuk 7KM<br>Cut off time 09.15 untuk
+                                            21KM</li>
+                                        <li>Peserta yang tidak mencapai garis finish sebelum batas waktu cut off time
+                                            yang telah ditetapkan akan
+                                            dianggap tidak menyelesaikan perlombaan.</li>
+                                        <li>Peserta dianggap memahami dan menyetujui, adanya resiko yang dapat muncul
+                                            dari keikutsertaan dalam
+                                            perlombaan dan untuk tidak berhak menuntut atas segala kejadian yang dapat
+                                            menyebabkan cedera tubuh,
+                                            cacat dll.</li>
+                                        <li>Peserta menjamin berada pada kesiapan fisik atau kesehatan yang baik untuk
+                                            mengikuti acara dan setuju
+                                            untuk bertanggung jawab atas tindakan peserta pada saat acara.</li>
+                                        <li>Peserta wajib mengetahui dan memahami jika tidak mematuhi peraturan yang
+                                            telah ditentukan maka dapat
+                                            mengakibatkan peserta untuk kehilangan hak yang seharusnya didapatkan oleh
+                                            peserta pada perlombaan.</li>
+                                    </ol>
+                                    <h4 class="text-center">B. Ketentuan Peserta </h4>
+                                    <ol>
+                                        <li>Peserta dianjurkan mengenakan baju yang telah disediakan.</li>
+                                        <li>Peserta dilarang keras memakai pakaian yang mengandung unsur sara dan
+                                            politik.</li>
                                         <li>Peserta dilarang keras membawa minum – minuman keras, senjata tajam yang
-                                            dapat membahayakan peserta lain.</li>
-                                        <li>Peserta dilarang keras membawa rokok saat acara berlangsung.</li>
+                                            dapat membahayakan peserta
+                                            lain. </li>
+                                        <li>Peserta dilarang keras membawa rokok saat acara berlangsung. </li>
                                         <li>Apabila saat body checking panitia menemukan barang – barang tersebut maka
-                                            panitia berhak untuk mengambilnya.</li>
-                                        <li>Biaya pendaftaran tidak dapat dikembalikan. Pihak penyelenggara memiliki hak
-                                            untuk menolak pendaftaran setelah pendaftaran diterima apabila ada pendaftar
-                                            yang memberikan informasi salah.</li>
-                                        <li>Apabila kegiatan/acara terpaksa dibatalkan dikarenakan hal-hal diluar
-                                            kontrol pihak penyelenggara (termasuk hujan deras, badai, atau musibah,
-                                            demonstrasi), tidak ada pengembalian biaya pendaftaran yang telah dibayarkan
-                                            dan pihak penyelenggara tidak bertanggung jawab atas kerugian atau
-                                            ketidaknyamanan yang terjadi.</li>
+                                            panitia berhak untuk
+                                            mengambilnya.</li>
+                                    </ol>
+                                    <h4 class="text-center">C. Pengambilan Racepack</h4>
+                                    <ol>
+                                        <li>Racepack meliputi baju, nomor BIB dan mendali sesuai dengan ketentuan.</li>
+                                        <li>Nomor BIB merupakan nomor yang telah ditentukan oleh panitia.</li>
+                                        <li>Partisipan yang tidak memiliki (BIB) dilarang masuk kedalam venue.</li>
+                                        <li>BIB peserta dapat di ambil H-2 sebelum acara berlangsung.
+                                            <br>Berikut tertera waktu untuk pengambilan BIB peserta:
+                                            <br>Tanggal & Hari : 13 september 2019 , Jum’at
+                                            <br>Pukul : 16.00 s.d 21.00 WIB
+                                            <br>
+                                            <br>Tanggal & Hari : 14 september 2019 , Sabtu
+                                            <br>Pukul : 13.00 s.d 00.00 WIB</li>
+                                        <li>Tempat pengambilan BIB di Telkom Lembong Bandung, Jawa Barat. </li>
+                                        <li>Diharapkan BIB tidak hilang ataupun rusak. </li>
+                                        <li>Nomor BIB peserta tidak dapat dipindah tangankan atau diperjual belikan
+                                            kepada pihak lain akan
+                                            didiskualifikasi dari perlombaan.</li>
+                                        <li>Pengambilan racepack hanya dapat dilakukan sesuai dengan waktu dan tempat
+                                            yang telah ditentukan oleh
+                                            panitia.</li>
+                                        <li>Peserta wajib membawa KTP/SIM/PASSPORT untuk pengambilan racepack.
+                                            Peserta wajib memperlihatkan tanda peserta dari Telkom University Half
+                                            Marathon 2019.
+                                        </li>
+                                    </ol>
+                                    <h4 class="text-center">D. Penitipan Barang</h4>
+                                    <ol>
+                                        <li>Penitipan barang hanya diperuntukan bagi 1000 peserta pertama yang
+                                            menitipkan barang.
+                                            <br>Waktu penitipan barang peserta:
+                                            <br>Tanggal & Hari : Minggu, 15 September, 2019
+                                            <br>Pukul : 04.00 s.d 10.00 WIB </li>
+                                        <li>Segala kerusakan dan kehilangan pada barang bawaan peserta yang dititipkan
+                                            kepada panitia adalah
+                                            tanggung jawab panitia. </li>
+                                    </ol>
+                                    <h4 class="text-center">E. Pendaftaran Peserta</h4>
+                                    <ol>
+                                        <li>Pendaftaran hanya boleh dilakukan oleh warga negara Indonesia atau warga
+                                            negara asing yang telah
+                                            memiliki KITAS.</li>
+                                        <li>Peserta memiliki identitas / tanda pengenal seperti ( KTP/SIM/PASSPORT).
+                                        </li>
+                                        <li>Anak dibawah 7 tahun tidak wajib membeli tiket, namun menjadi tanggung jawab
+                                            penuh orang tua. Anak
+                                            diatas 7 tahun wajib membeli tiket.</li>
+                                        <li>Peserta anak-anak 13 tahun kebawah dipastikan untuk memiliki izin dari orang
+                                            tua.</li>
+                                        <li>Peserta wajib mengisi formulir pendaftaran melalui website pendaftaran
+                                            secara lengkap dan benar, dan
+                                            membayar biaya pendataran sesuai dengan informasi yang ditetapkan resmi pada
+                                            website.</li>
+                                        <li>Peserta wajib memilih kategori lomba sesuai dengan ketentuan yang telah
+                                            ditetapkan.</li>
+                                        <li>Peserta menyetujui untuk memberikan informasi tentang kepesertaan yang
+                                            benar, akurat, terkini dan
+                                            menyeluruh, yang terdapat dalam formulir pendaftaran.</li>
+                                        <li>Peserta wajib memastikan bahwa segala informasi yang diberikan adalah benar
+                                            dan akurat.</li>
+                                        <li>Peserta tidak dapat mengubah informasi setelah konfirmasi pendaftaran
+                                            dikirim.</li>
                                         <li>Penyelesaian formulir pendaftaran online menegaskan persetujuan peserta
-                                            untuk mematuhi seluruh aturan dan regulasi.</li>
+                                            untuk mematuhi seluruh aturan
+                                            dan regulasi.</li>
+                                        <li>Pendaftaran Peserta tidak dapat dialihnamakan dan bersifat final serta
+                                            menerima sepenuhnya atas seluruh
+                                            peraturan dan ketentuan yang berlaku.</li>
                                         <li>Konfirmasi pendaftaran lomba akan diberikan setelah melengkapi pendaftaran
                                             dan pembayaran.</li>
-                                        <li>Pihak penyelenggara memiliki hak untuk menutup pendaftaran sebelum tenggang
-                                            waktu tanpa pemberitahuan terlebih dahulu ketika kuota lomba sudah penuh.
+                                    </ol>
+                                    <h4 class="text-center">F. Ketentuan Pemenang</h4>
+                                    <ol>
+                                        <li>Peserta yang menyelesaikan pertandingan dengan catatan waktu terbaik, sesuai
+                                            dengan kategori perlombaan
+                                            yang dipilih peserta pada saat registrasi.</li>
+                                        <li>Mengenakan nomor BIB sesuai dengan data diri asli dan tidak melakukan
+                                            kecurangan dalam bentuk apapun.
                                         </li>
-                                        <li>Peserta menyetujui untuk memberikan informasi tentang kepesertaan yang
-                                            benar, akurat, terkini dan menyeluruh, yang terdapat dalam formulir
-                                            pendaftaran. Pihak penyelenggara dapat menghubungi peserta sewaktu-waktu
-                                            melalui surat elektronik. Surat pemberitahuan dikirim ke alamat surat
-                                            elektronik yang terdaftar pada pihak penyelenggara akan disamakan dengan
-                                            yang diterima oleh peserta.</li>
+                                        <li>Pengambilan hadiah tidak dapat diwakilkan atau dipindahtangankan dan wajib
+                                            untuk menunjukan identitas
+                                            diri asli sesuai dengan data registrasi.</li>
+                                        <li>Keputusan pemenang oleh pihak juri adalah sah dan tidak dapat diganggu
+                                            gugat. </li>
+                                        <li>Panitia berhak memberikan hadiah dalam bentuk barang/uang tunai/transfer
+                                            dengan jangka waktu yang telah
+                                            ditetapkan oleh panitia.</li>
+                                        <li>Pajak hadiah ditanggung pemenang.</li>
                                     </ol>
                                 </div>
 

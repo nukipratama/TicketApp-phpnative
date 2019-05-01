@@ -14,7 +14,7 @@ include 'page_header.php'
         <!-- <div class="container"> -->
         <div class="row justify-content-center">
 
-            <div class="col-lg-8 embed-responsive embed-responsive-1by1">
+            <div class="col-lg-12 embed-responsive embed-responsive-21by9">
                 <iframe class="embed-responsive-item"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7808123524046!2d107.60884591423523!3d-6.916788395002296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6303dd9465f%3A0xf3735a8a2110d8e9!2sTelkom+Lembong!5e0!3m2!1sid!2sid!4v1553185460111"
                     frameborder="0" allowfullscreen></iframe>
@@ -72,13 +72,13 @@ include 'page_header.php'
                 <h2 class="div-heading">Route</h2>
                 <hr class="my-4">
             </div>
-         
+
         </div>
         <!-- </div> -->
         <!-- <div class="container"> -->
         <div class="row justify-content-center">
-            <div class="col-lg-3 text-center">
-            <a class="portfolio-box" href="asset/img/portfolio/fullsize/Maps 7.jpg">
+            <div class="col-lg-6 text-center">
+                <a class="portfolio-box" href="asset/img/portfolio/fullsize/Maps 7.jpg">
                     <img class="img-fluid" src="asset/img/Maps 7.jpg" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
@@ -90,16 +90,11 @@ include 'page_header.php'
                             </div>
                         </div>
                     </div>
-                </a>  
+                </a>
 
-            
-            <!-- <div class="service-box mt-5 mx-auto">
-                <img src="asset/img/Maps 7.jpg" alt="" style="width:120%;heigh:100%;">
-                </div>
-            </div> -->
-            <!-- </div> -->
-        </div>
-        <div class="col-lg-3 text-center">
+
+            </div>
+            <div class="col-lg-6 text-center">
                 <a class="portfolio-box" href="asset/img/portfolio/fullsize/Maps 21.jpg">
                     <img class="img-fluid" src="asset/img/Maps 21.jpg" alt="">
                     <div class="portfolio-box-caption">
@@ -114,8 +109,8 @@ include 'page_header.php'
                     </div>
                 </a>
             </div>
+        </div>
     </div>
-
     <div id="rundown">
         <!-- <div class="container"> -->
         <div class="row justify-content-center">
@@ -147,35 +142,42 @@ include 'page_header.php'
             <!-- </div> -->
         </div>
         <!-- <div class="container"> -->
-        <div class="row ">
-        <div class="col-lg-7  ">
-            <div class="mt-5 mx-auto">
-                <h5 class="mb-3">Husein Sastranegara International Airport to Venue</h5>
-                    <img class="img-fluid sr-icon-1" src="asset/img/bandara to venue.png" style="width:150%;heigh:150%; padding-bottom:3%" alt="">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="mt-5 mx-auto">
+                    <h5 class="mb-3">Husein Sastranegara International Airport to Venue</h5>
+                    <img class="img-fluid sr-icon-1" src="asset/img/bandara to venue.png"
+                        style="width:150%;heigh:150%; padding-bottom:3%" alt="">
                     <p class="text-muted mb-1">1. Follow Jl. Nurtanio Utara to Jl. Abdul Saleh 2 min(450m)</p>
-                    <p class="text-muted mb-1">2. Take Jl. Pajajaran to Jl. Kebon Kawung in Pasir Kaliki 10 min(3,4km)</p>
+                    <p class="text-muted mb-1">2. Take Jl. Pajajaran to Jl. Kebon Kawung in Pasir Kaliki 10
+                        min(3,4km)</p>
                     <p class="text-muted mb-1">3. Take Jl. Kb. Jukut to Jl. Printis Kemerdekaan 2 min(600m)</p>
-             </div>
-            <!-- </div> -->
-            <div class="mt-5 mx-auto">
-                <h5 class="mb-3">Bandung Train Station to Venue</h5>
-                    <img class="img-fluid sr-icon-1" src="asset/img/stasiun to venue.png" style="width:150%;heigh:150%; padding-bottom:3%" alt="">
+                </div>
+                <!-- </div> -->
+                <div class="mt-5 mx-auto">
+                    <h5 class="mb-3">Bandung Train Station to Venue</h5>
+                    <img class="img-fluid sr-icon-1" src="asset/img/stasiun to venue.png"
+                        style="width:150%;heigh:150%; padding-bottom:3%" alt="">
                     <p class="text-muted mb-1">1. Head east on Jl. Stasiun Barat(40 m)</p>
                     <p class="text-muted mb-1">2. Continue onto Jl. Stasiun Timur(500 m)</p>
-                    <p class="text-muted mb-1">3. Jl. Stasiun Timur turns left and becomes Jl. Perintis Kemerdekaan(300 m)</p>
+                    <p class="text-muted mb-1">3. Jl. Stasiun Timur turns left and becomes Jl. Perintis
+                        Kemerdekaan(300 m)</p>
                     <p class="text-muted mb-1">4. Turn left onto Jl. Lembong</p>
-             </div>
-             <div class="mt-5 mx-auto">
-                <h5 class="mb-3">Cicaheum Bus Station Station to Venue</h5>
-                    <img class="img-fluid sr-icon-1" src="asset/img/terminal to venue.png" style="width:150%;heigh:150%; padding-bottom:3%" alt="">
+                </div>
+                <div class="mt-5 mx-auto">
+                    <h5 class="mb-3">Cicaheum Bus Station Station to Venue</h5>
+                    <img class="img-fluid sr-icon-1" src="asset/img/terminal to venue.png"
+                        style="width:150%;heigh:150%; padding-bottom:3%" alt="">
                     <p class="text-muted mb-1">1. Head north toward Jl. Jendral Ahmad Yani 11 s (31m)</p>
-                    <p class="text-muted mb-1">2. Continue on Jl. Jendral Ahmad Yani Take Jl. Jakarta and Jl. Jendral Ahmad Yani to Jl. Gudang Utara in Merdeka 13 min (4.2km)</p>
-                    <p class="text-muted mb-1">3. Follow Jl. Gudang Utara and Jl. Jawa to Jl. Merdeka in Babakan Ciamis 6 min (2.0km)</p>
-                    
-             </div>
+                    <p class="text-muted mb-1">2. Continue on Jl. Jendral Ahmad Yani Take Jl. Jakarta and Jl.
+                        Jendral Ahmad Yani to Jl. Gudang Utara in Merdeka 13 min (4.2km)</p>
+                    <p class="text-muted mb-1">3. Follow Jl. Gudang Utara and Jl. Jawa to Jl. Merdeka in Babakan
+                        Ciamis 6 min (2.0km)</p>
+
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
 <style>
 .iframe-container {

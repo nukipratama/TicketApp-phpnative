@@ -53,13 +53,13 @@ date_default_timezone_set("Asia/Bangkok");
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5" id="mainNav" style="">
-        
+
         <div class="container-fluid">
-           <img  src="asset/img/LOGO-new.png" style="width:4%;height:auto">
-        <a class="btn btn-primary navbar-brand js-scroll-trigger" href="home"> #TUHM2019</a>
-            
-            
-           
+            <img src="asset/img/LOGO-new.png" style="width:4%;height:auto">
+            <a class="btn btn-primary navbar-brand js-scroll-trigger" href="home"> #TUHM2019</a>
+
+
+
             <button class="bg-white navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -68,14 +68,17 @@ date_default_timezone_set("Asia/Bangkok");
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item m-2">
-                        <a class="btn btn-primary nav-link js-scroll-trigger" href="order"><i class="fas fa-cart-plus"></i> Pendaftaran</a>
+                        <a class="btn btn-primary nav-link js-scroll-trigger" href="order"><i
+                                class="fas fa-cart-plus"></i> Pendaftaran</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="btn btn-primary nav-link js-scroll-trigger" href="news"><i class="fas fa-newspaper"></i> Pengumuman</a>
+                        <a class="btn btn-primary nav-link js-scroll-trigger" href="news"><i
+                                class="fas fa-newspaper"></i> Pengumuman</a>
                     </li>
                     <li class="nav-item m-2 dropdown">
-                        <a class="btn btn-primary nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-question-circle"></i> Informasi</a>
+                        <a class="btn btn-primary nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                class="fas fa-question-circle"></i> Informasi</a>
 
                         <ul class="dropdown-menu text-center text-primary" aria-labelledby="navbarDropdownMenuLink">
                             <li>
@@ -91,15 +94,19 @@ date_default_timezone_set("Asia/Bangkok");
                                 <a class="dropdown-item" href="information#rundown">Event Rundown</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="information#accomodation">Akomodasi</a>
+                                <a class="dropdown-item" href="information#akomodasi">Akomodasi</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="rules">Peraturan</a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="faq">FAQ</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="btn btn-primary nav-link js-scroll-trigger" href="participant"><i class="fas fa-list-alt"></i> Daftar Peserta</a>
+                        <a class="btn btn-primary nav-link js-scroll-trigger" href="participant"><i
+                                class="fas fa-list-alt"></i> Daftar Peserta</a>
                     </li>
                 </ul>
             </div>

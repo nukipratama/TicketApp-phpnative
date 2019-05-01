@@ -1,52 +1,52 @@
 </body>
-    <footer id="footer">
+<footer id="footer">
     <div class="footer-top">
         <div class="container">
-            <div class="row">
+
+            <div class="row justify-content-center">
 
                 <div class="col-lg-6  footer-info">
-                    <h4>Supported by BY</h4>
-                    <div class="row">
-                        <div class="col-md-5">
-                            <img class="img-fluid" src="asset/img/Logo_Tel-U.png" style="width:60%;height:auto" >
+                    <h4>Supported by</h4>
+                    <center>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img class="" src="asset/img/Logo_Tel-U.png" style="width:15vh">
+                            </div>
+                            <div class="col-lg-4">
+                                <img clas="" src="asset/img/logo telkom warna.png" style="width:20vh">
+
+                            </div>
+                            <div class="col-lg-4">
+                                <img class="" src="asset/img/logo-fast.png" style="width:25vh">
+                            </div>
                         </div>
-                        <div class="col-md-5">
-                        <img clas="img-fluid" src="asset/img/logo telkom warna.png" style="width:80%;height:auto" >
+
+                        <div class="row">
+
                         </div>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="img-fluid" src="asset/img/logo-fast-with-name.png" style="width:100%;height:auto" >
-                    </div>
-                    
+                    </center>
                 </div>
-                
+
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>MEDIA PARTNER</h4>
-                    
+
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h4>Contact Us</h4>
-                   <div class="row">
+                    <div class="row">
                         <i class="fab fa-instagram fa-3x  sr-contact-1"></i>
                         <p style="margin-left:5%; padding-top:2%">@telkomuniversityrun</p>
-                   </div>
-                   <div class="row">
+                    </div>
+                    <div class="row">
                         <i class="fa fa-envelope fa-3x sr-contact-2"></i>
                         <p style="margin-left:5%; padding-top:2%">cs@telkomuniversityrun.com</p>
-                   </div>
-                   <div class="row">
+                    </div>
+                    <div class="row">
                         <i class="fab fa-line fa-3x sr-contact-1"></i>
                         <p style="margin-left:5%; padding-top:2%"> @kxg1516f</p>
-                   </div>
-                   
-                        
-                        
-                        
-                    
-                    
-
+                    </div>
                 </div>
             </div>
         </div>
@@ -54,12 +54,13 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; 2019 <strong><a href="https:/telkomuniversityrun.com">Telkom University Run</a></strong>. All Rights Reserved
+            &copy; 2019 <strong>Telkom University Run</strong>. All Rights Reserved
         </div>
     </div>
 </footer>
 <style>
-    #footer {
+#footer {
+    margin-top: 20vh;
     background: rgb(172, 7, 7);
     padding: 0 0 30px 0;
     color: #eee;
@@ -67,7 +68,7 @@
 }
 
 #footer .footer-top {
-    background:rgb(189, 36, 36);
+    background: rgb(189, 36, 36);
     padding: 60px 0 30px 0;
 }
 

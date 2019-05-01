@@ -5,7 +5,14 @@ if (isset($_SESSION['auth'])) {
 } else {
     header("Location:login");
 }
-
+function harga($returnBID)
+{
+    $harga = ($returnBID['harga_pcs'] * $returnBID['jumlah'] * 1000) + $returnBID['no'];
+    $harga = (int) $harga;
+    $harga = 'Rp ' . number_format($harga, 0, ".", ".");
+    // $harga = money_format('%.0n', $harga);
+    return $harga;
+}
 include 'page_header.php';
 // $uploadBook = count(book()['upload']) - count(book()['paid']);
 if (isset(book()['paid']) && isset(unconfirmed()['bid'])) {
@@ -23,13 +30,13 @@ for ($key = 0; $key < count(book()['tanggal']); $key++) {
     $current_time = date('d-m-Y H:i:s');
     $book_time = strtotime($book_time);
     $current_time = strtotime($current_time);
-    
+
     if (book()['paid_status'][$key] == 1) {
         $totalIncome += book()['harga_book'][$key];
-    }else{
+    } else {
         if ($book_time < $current_time) {
-        $expiredBook++;
-    }
+            $expiredBook++;
+        }
     }
 }
 
@@ -138,7 +145,7 @@ for ($key = 0; $key < count(book()['tanggal']); $key++) {
                                 <td><?=unconfirmed()['bid'][$key]?></td>
                                 <td><?=unconfirmed()['jenis'][$key]?></td>
                                 <td><?=unconfirmed()['kategori'][$key]?></td>
-                                <td><?='Rp' . unconfirmed()['harga_pcs'][$key] * unconfirmed()['jumlah'][$key] . '.000'?>
+                                <td><?=harga(unconfirmed())?>
                                 </td>
                                 <td><?=unconfirmed()['jumlah'][$key]?></td>
                                 <td><?=unconfirmed()['book_email'][$key]?></td>
@@ -280,6 +287,7 @@ function unconfirmed()
         $key = 0;
         while ($dbGet = $result->fetch_assoc()) {
             if (!$dbGet['foto_invoice'] == null) {
+                $array['no'][$key] = $dbGet['no'];
                 $array['bid'][$key] = $dbGet['bid'];
                 $array['jenis'][$key] = $dbGet['jenis'];
                 $array['kategori'][$key] = $dbGet['kategori'];

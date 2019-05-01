@@ -25,6 +25,7 @@ RewriteRule ^information.*$ page_information.php [NC,L]
 RewriteRule ^news.*$ page_news.php [NC,L]
 RewriteRule ^participant.*$ page_participant.php [NC,L]
 RewriteRule ^ticket.*$ script/timer/ticket.php [NC,L]
+RewriteRule ^faq.*$ page_faq.php [NC,L]
 
 # BEGIN cPanel-generated php ini directives, do not edit
 # Manual editing of this file may result in unexpected behavior.
@@ -61,6 +62,6 @@ RewriteRule ^ticket.*$ script/timer/ticket.php [NC,L]
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php71” package as the default “PHP” programming language.
 <IfModule mime_module>
-  AddHandler application/x-httpd-ea-php71___lsphp .php .php7 .phtml
+  #AddHandler application/x-httpd-ea-php71___lsphp .php .php7 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
