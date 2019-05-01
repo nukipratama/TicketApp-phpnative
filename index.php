@@ -98,10 +98,11 @@ include 'page_header.php'
                 </div>
             </div>
         </div>
-        <?php
+
+        <div class="row justify-content-center">
+            <?php
 while ($dbGet = $result->fetch_assoc()) {
     ?>
-        <div class="row ">
             <div class="col-md-6 ">
                 <div class="card flex-md-row mb-4 shadow-sm h-md-250 sr-ann-1" style="">
                     <div class="card-body d-flex flex-column align-items-start">
@@ -118,10 +119,11 @@ while ($dbGet = $result->fetch_assoc()) {
                         src="<?=$dbGet['image']?>" style="">
                 </div>
             </div>
-        </div>
 
-        <?php
+
+            <?php
 }?>
+        </div>
     </div>
 </section>
 

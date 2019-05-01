@@ -40,6 +40,7 @@ if (isset($_GET['id'])) {
 
 
 
+
     <?php
 }
     $stmt->close();
@@ -69,6 +70,7 @@ while ($dbGet2 = $result->fetch_assoc()) {
             <h6 class="text-muted"><?=$dbGet2['short_desc']?></h6>
         </div>
     </div>
+    <hr>
     <?php
 }
     $stmt->close();
