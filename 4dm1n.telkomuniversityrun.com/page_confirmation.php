@@ -5,9 +5,9 @@ if (isset($_SESSION['auth'])) {
 } else {
     header("Location:login");
 }
-function harga($returnBID)
+function harga($harga_pcs, $jumlah, $no)
 {
-    $harga = ($returnBID['harga_pcs'] * $returnBID['jumlah'] * 1000) + $returnBID['no'];
+    $harga = ($harga_pcs * $jumlah * 1000) + $no;
     $harga = (int) $harga;
     $harga = 'Rp ' . number_format($harga, 0, ".", ".");
     // $harga = money_format('%.0n', $harga);
@@ -138,14 +138,15 @@ for ($key = 0; $key < count(book()['tanggal']); $key++) {
                         </tfoot>
                         <tbody>
 
-                            <?php for ($key = 0; $key < $count_bid; $key++) {
+                            <?php
+for ($key = 0; $key < $count_bid; $key++) {
     ?>
                             <tr>
                                 <td><?=($key + 1)?></td>
                                 <td><?=unconfirmed()['bid'][$key]?></td>
                                 <td><?=unconfirmed()['jenis'][$key]?></td>
                                 <td><?=unconfirmed()['kategori'][$key]?></td>
-                                <td><?=harga(unconfirmed())?>
+                                <td><?=harga(unconfirmed()['harga_pcs'][$key], unconfirmed()['jumlah'][$key], unconfirmed()['no'][$key])?>
                                 </td>
                                 <td><?=unconfirmed()['jumlah'][$key]?></td>
                                 <td><?=unconfirmed()['book_email'][$key]?></td>
