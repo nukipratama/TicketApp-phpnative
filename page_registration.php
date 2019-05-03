@@ -251,11 +251,6 @@ for ($c = 0;
                         </div>
                     </div>
 
-
-
-
-                    <!--                    </section>-->
-
                 </div>
             </div>
 
