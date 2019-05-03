@@ -3,14 +3,14 @@
     <div class="footer-top">
         <div class="container">
 
-            <div class="row justify-content-center">
+            <div class="row ">
 
                 <div class="col-lg-6  footer-info">
                     <h4>Supported by</h4>
                     <center>
                         <div class="row">
                             <div class="col-lg-4">
-                                <img class="" src="asset/img/Logo_Tel-U.png" style="width:60%">
+                                <img class="" src="asset/img/Tel-U Legal Utama.png" style="width:100%">
                             </div>
                             <div class="col-lg-4">
                                 <img clas="" src="asset/img/logo telkom warna.png" style="width:100%">
@@ -30,7 +30,46 @@
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>MEDIA PARTNER</h4>
-
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img class="" src="asset/img/ayo-lari.jpg" style="width:100%">
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="" src="asset/img/event-banget.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:2vh">
+                             <div class="col-lg-5">
+                                <img class="" src="asset/img/event-apaaja.jpg" style="width:100%">
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="" src="asset/img/bdg-explorer.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:2vh">
+                            <div class="col-lg-4">
+                                <img class="" src="asset/img/bandung.jpg" style="width:100%">
+                               
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="" src="asset/img/sportactiva.png" style="width:100%">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:2vh">
+                            <div class="col-lg-6">
+                                <img class="" src="asset/img/provoke.jpeg" style="width:100%">
+                               
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="" src="asset/img/kalender-lari.jpeg" style="width:100%">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:2vh">
+                            <div class="col-lg-4">
+                                <img class="" src="asset/img/lariku-info.jpeg" style="width:100%">
+                               
+                            </div>
+                        </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
