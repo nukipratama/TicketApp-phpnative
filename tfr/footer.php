@@ -30,7 +30,46 @@
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>MEDIA PARTNER</h4>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="" src="../asset/img/ayo-lari.jpg" style="width:100%">
+                        </div>
+                        <div class="col-lg-5">
+                            <img class="" src="../asset/img/event-banget.jpg" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:2vh">
+                        <div class="col-lg-5">
+                            <img class="" src="../asset/img/event-apaaja.jpg" style="width:100%">
+                        </div>
+                        <div class="col-lg-5">
+                            <img class="" src="../asset/img/bdg-explorer.jpg" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:2vh">
+                        <div class="col-lg-4">
+                            <img class="" src="../asset/img/bandung.jpg" style="width:100%">
 
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="" src="../asset/img/sportactiva.png" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:2vh">
+                        <div class="col-lg-6">
+                            <img class="" src="../asset/img/provoke.jpeg" style="width:100%">
+
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="" src="../asset/img/kalender-lari.jpeg" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:2vh">
+                        <div class="col-lg-4">
+                            <img class="" src="../asset/img/lariku-info.jpeg" style="width:100%">
+
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
@@ -211,18 +250,18 @@
     integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
 </script>
 <!-- Bootstrap core JavaScript -->
-<script src="../asset/js/validation.js"></script>
+<script src="../../asset/js/validation.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script src="../asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="../asset/vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="../asset/vendor/scrollreveal/scrollreveal.min.js"></script>
-<script src="../asset/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="../../asset/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="../../asset/vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="../../asset/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="../asset/js/creative.min.js"></script>
-<script src="../asset/css/tingle.js"></script>
+<script src="../../asset/js/creative.min.js"></script>
+<script src="../../asset/css/tingle.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js">
 </script>
 <!-- MDB core JavaScript -->

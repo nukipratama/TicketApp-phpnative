@@ -22,9 +22,6 @@ if (isset($_POST['address'])) {
     echo $identity = $_POST['identity'];
     echo $baju = $_POST['baju'];
 
-    if ($_FILES['imgInp']["name"] == '') {
-        // echo '<br>no image,data ke-' . ($key + 1);
-    }
     if ($_FILES['imgInp']["name"] !== '') {
         $target_dir = "../../../upload/";
         $target_file = $target_dir . basename($_FILES["imgInp"]["name"]);
