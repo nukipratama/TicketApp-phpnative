@@ -3,7 +3,7 @@
     <div class="footer-top">
         <div class="container">
 
-            <div class="row justify-content-center">
+            <div class="row ">
 
                 <div class="col-lg-6  footer-info">
                     <h4>Supported by</h4>
@@ -49,6 +49,25 @@
                         <div class="row" style="margin-top:2vh">
                             <div class="col-lg-4">
                                 <img class="" src="asset/img/bandung.jpg" style="width:100%">
+                               
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="" src="asset/img/sportactiva.png" style="width:100%">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:2vh">
+                            <div class="col-lg-6">
+                                <img class="" src="asset/img/provoke.jpeg" style="width:100%">
+                               
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="" src="asset/img/kalender-lari.jpeg" style="width:100%">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:2vh">
+                            <div class="col-lg-4">
+                                <img class="" src="asset/img/lariku-info.jpeg" style="width:100%">
+                               
                             </div>
                         </div>
                 </div>
