@@ -20,7 +20,7 @@ $bid = $_SESSION['bid'];
     <h4>Jumlah Tiket : <b>1 Tiket</b></h4>
     <hr style="background-color:gray;">
     <h4>Silahkan melakukan pelengkapan data peserta  pada link yang terlampir dibawah.</h4>
-    <h4><a href='localhost/tuhm/tfr?bid=<?=$bid?>'>Klik untuk mengisi Data Peserta</a></h4>
+    <h4><a href='https://telkomuniversityrun.com/tfr?bid=<?=$bid?>'>Klik untuk mengisi Data Peserta</a></h4>
     <hr style="background-color:gray;">
     <h4>Jika ada pertanyaan, silahkan hubungi kami di cs@telkomuniversityrun.com</h4>
     <br>
