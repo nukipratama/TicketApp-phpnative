@@ -13,6 +13,16 @@ date_default_timezone_set("Asia/Bangkok");
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script type="text/javascript">
+    $(document).ready(function($) {
+        var Body = $('body');
+        Body.addClass('preloader-site');
+    });
+    $(window).on('load', function() {
+        $('.preloader-wrapper').fadeOut();
+        $('body').removeClass('preloader-site');
+    });
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
     </script>
@@ -46,11 +56,14 @@ date_default_timezone_set("Asia/Bangkok");
     </script>
     <!--End of Tawk.to Script-->
 
-
 </head>
 
 <body class="bg-light" style="background-image: url('asset/img/bg.jpg');">
-
+    <div class="preloader-wrapper" style="  background-image: url('asset/img/bg.jpg');">
+        <div class="preloader">
+            <img src="asset/img/preloader.gif" class="img-fluid" alt="">
+        </div>
+    </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5" id="mainNav" style="">
 
