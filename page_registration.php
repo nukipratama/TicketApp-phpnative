@@ -171,7 +171,7 @@ for ($c = 0;
                             <div class="invalid-feedback">
                                 Harap isi Umur Peserta
                             </div>
-                            <small class="form-text text-muted">Umur Peserta.</small>
+                            <small class="form-text text-muted">Umur Peserta.<br>Diatas 40 Tahun otomatis mengikuti kategori Master.</small>
                         </div>
 
                     </div>

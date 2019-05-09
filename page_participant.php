@@ -8,7 +8,7 @@ if ($result->num_rows === 0) {
     return false;
 }?>
 <link href="asset/css/datatables/dataTables.bootstrap4.css" rel="stylesheet">
-<div class="container mt-5">
+<div class="container-fluid mt-5">
     <div class="row justify-content-center text-justify text-center">
         <div class="col-md-12 mt-5">
             <h2 class="text-center">
@@ -40,9 +40,16 @@ if ($result->num_rows === 0) {
                             <?php
 while ($dbGet = $result->fetch_assoc()) {
     ?> <tr>
-                                <td><?=$dbGet['no']?></td>
+                                <td><?=str_pad($dbGet['no'], 4, '0', STR_PAD_LEFT)?></td>
                                 <td><?=$dbGet['nama']?></td>
+                                <?php if ($dbGet['umur'] > 40) {
+        ?>
+                                <td><?=getCategory($dbGet['bid']) . ' MASTER'?></td>
+                                <?php
+}if ($dbGet['umur'] <= 40) {
+        ?>
                                 <td><?=getCategory($dbGet['bid'])?></td>
+                                <?php }?>
                                 <td><?=$dbGet['baju']?></td>
                                 <?php
 switch ($dbGet['gender']) {
@@ -52,7 +59,7 @@ switch ($dbGet['gender']) {
         case 'female':
             echo '<td>Perempuan</td>';
             break;
-    } ?>
+    }?>
 
                                 <td><?=$dbGet['community']?></td>
                             </tr>
