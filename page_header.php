@@ -16,11 +16,11 @@ date_default_timezone_set("Asia/Bangkok");
     <script type="text/javascript">
     $(document).ready(function($) {
         var Body = $('body');
-        Body.addClass('preloader-site');
+        // Body.addClass('preloader-site');
     });
     $(window).on('load', function() {
         $('.preloader-wrapper').fadeOut();
-        $('body').removeClass('preloader-site');
+        // $('body').removeClass('preloader-site');
     });
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
@@ -57,13 +57,13 @@ date_default_timezone_set("Asia/Bangkok");
     <!--End of Tawk.to Script-->
 
 </head>
-
-<body class="bg-light" style="background-image: url('asset/img/bg.jpg');">
-    <div class="preloader-wrapper" style="  background-image: url('asset/img/bg.jpg');">
+ <div class="preloader-wrapper" style="  background-image: url('asset/img/bg.jpg');">
         <div class="preloader">
             <img src="asset/img/preloader.gif" class="img-fluid" alt="">
         </div>
     </div>
+<body class="bg-light" style="background-image: url('asset/img/bg.jpg');">
+   
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5" id="mainNav" style="">
 

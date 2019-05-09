@@ -1,5 +1,3 @@
-</body>
-
 <footer id="footer">
     <div class="footer-top">
         <div class="container-fluid">
@@ -98,6 +96,9 @@
         </div>
     </div>
 </footer>
+
+</body>
+
 <style>
 #footer {
     margin-top: 20vh;
@@ -243,13 +244,13 @@
     color: #f1f7ff;
 }
 </style>
+
 <!-- JQuery -->
 
 <!-- Bootstrap tooltips -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
     integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
 </script>
-
 <!-- Bootstrap core JavaScript -->
 <script src="asset/js/validation.js"></script>
 <!-- Bootstrap core JavaScript -->
