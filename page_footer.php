@@ -2,28 +2,22 @@
     <div class="footer-top">
         <div class="container-fluid">
 
-            <div class="row ">
-
+            <div class="row justify-content-center text-center">
                 <div class="col-lg-6  footer-info">
-                    <h4>Supported by</h4>
                     <center>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4">
-                                <img class="" src="asset/img/Tel-U Legal Utama.png" style="width:100%">
-                            </div>
-                            <div class="col-lg-4">
-                                <img clas="" src="asset/img/logo telkom warna.png" style="width:100%">
-
-                            </div>
-                            <div class="col-lg-4">
-                                <img class="" src="asset/img/logo-fast.png" style="width:100%">
-                            </div>
+                        <h4>Sponsored by</h4>
+                        <div class="row justify-content-center ">
+                            <img class="m-2" src="asset/img/Tel-U Legal Utama.png" width="150vh" height="100vh">
+                            <img class="m-2" src="asset/img/logo telkom warna.png" width="150vh" height="100vh">
+                            <img class="m-2" src="asset/img/ypt.png" width="150vh" height="100vh">
                         </div>
-
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <img src="asset/img/FFUN.png" style="width:80%;heigh:80%">
-                            </div>
+                        <br>
+                        <h4>Supported by</h4>
+                        <div class="row justify-content-center ">
+                            <img class="m-2" src="asset/img/Tel-U Legal Utama.png" width="150vh" height="100vh">
+                            <img clas="m-2" src="asset/img/logo telkom warna.png" width="150vh" height="100vh">
+                            <img class="m-2" src="asset/img/logo-fast.png" width="150vh" height="100vh">
+                            <img class="m-2" src="asset/img/FFUN.png" width="150vh" height="100vh">
                         </div>
                     </center>
                 </div>
@@ -31,61 +25,37 @@
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>MEDIA PARTNER</h4>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4">
-                            <img class="" src="asset/img/ayo-lari.jpg" style="width:100%">
-                        </div>
-                        <div class="col-lg-5">
-                            <img class="" src="asset/img/event-banget.jpg" style="width:100%">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center" style="margin-top:2vh">
-                        <div class="col-lg-5">
-                            <img class="" src="asset/img/event-apaaja.jpg" style="width:100%">
-                        </div>
-                        <div class="col-lg-5">
-                            <img class="" src="asset/img/bdg-explorer.jpg" style="width:100%">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center" style="margin-top:2vh">
-                        <div class="col-lg-4">
-                            <img class="" src="asset/img/bandung.jpg" style="width:100%">
+                    <div class="row justify-content-center " style="margin-left:1%">
+                        <img class="m-1" src="asset/img/ayo-lari.jpg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/lariku-info.jpeg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/sportactiva.png" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/kalender-lari.jpeg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/bandung.jpg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/bdg-explorer.jpg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/event-banget.jpg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/event-apaaja.jpg" width="100vh" height="100vh">
+                        <img class="m-1" src="asset/img/provoke.jpeg" width="100vh" height="100vh">
 
-                        </div>
-                        <div class="col-lg-6">
-                            <img class="" src="asset/img/sportactiva.png" style="width:100%">
-                        </div>
                     </div>
-                    <div class="row justify-content-center" style="margin-top:2vh">
-                        <div class="col-lg-6">
-                            <img class="" src="asset/img/provoke.jpeg" style="width:100%">
 
-                        </div>
-                        <div class="col-lg-6">
-                            <img class="" src="asset/img/kalender-lari.jpeg" style="width:100%">
-                        </div>
-                    </div>
-                    <div class="row justify-content-center" style="margin-top:2vh">
-                        <div class="col-lg-4">
-                            <img class="" src="asset/img/lariku-info.jpeg" style="width:100%">
 
-                        </div>
-                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h4>Contact Us</h4>
                     <div class="row">
-                        <i class="fab fa-instagram fa-3x  sr-contact-1" style="margin-left:20px"></i>
-                        <p style="margin-left:5%; padding-top:2%">@telkomuniversityrun</p>
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-envelope fa-3x sr-contact-2" style="margin-left:20px"></i>
-                        <p style="margin-left:5%; padding-top:2%">cs@telkomuniversityrun.com</p>
-                    </div>
-                    <div class="row">
-                        <i class="fab fa-line fa-3x sr-contact-1" style="margin-left:20px"></i>
-                        <p style="margin-left:5%; padding-top:2%"> @kxg1516f</p>
+                        <div class="col-lg-12">
+                            <i class="fab fa-instagram fa-3x  sr-contact-1" style="margin-left:20px"></i>
+                            <p style="margin-left:5%; padding-top:2%">@telkomuniversityrun</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <i class="fa fa-envelope fa-3x sr-contact-2" style="margin-left:20px"></i>
+                            <p style="margin-left:5%; padding-top:2%">cs@telkomuniversityrun.com</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <i class="fab fa-line fa-3x sr-contact-1" style="margin-left:20px"></i>
+                            <p style="margin-left:5%; padding-top:2%"> @kxg1516f</p>
+                        </div>
                     </div>
                 </div>
             </div>
