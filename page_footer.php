@@ -21,7 +21,9 @@
                         </div>
 
                         <div class="row">
-
+                            <div class="col-lg-4">
+                                <img src="asset/img/FFUN.png" style="width:80%;heigh:80%">
+                            </div>
                         </div>
                     </center>
                 </div>
