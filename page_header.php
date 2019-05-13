@@ -2,10 +2,14 @@
 date_default_timezone_set("Asia/Bangkok");
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="id">
+    <meta name="author" content="Nuki Pratama(Full Stack) : https://github.com/nukipratama">
+    <meta name="author2" content="Dzul Wulan(UI) : https://github.com/dzulwulan">
+    <meta name="description" content="Tel-U Half Marathon 2019 Registration System">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <link rel="shortcut icon" href="asset/img/LOGO-new.png">
     <title>Telkom University Half Marathon 2019</title>
@@ -57,13 +61,14 @@ date_default_timezone_set("Asia/Bangkok");
     <!--End of Tawk.to Script-->
 
 </head>
- <div class="preloader-wrapper" style="  background-image: url('asset/img/bg.jpg');">
-        <div class="preloader">
-            <img src="asset/img/preloader.gif" class="img-fluid" alt="">
-        </div>
+<div class="preloader-wrapper" style="  background-image: url('asset/img/bg.jpg');">
+    <div class="preloader">
+        <img src="asset/img/preloader.gif" class="img-fluid" alt="">
     </div>
+</div>
+
 <body class="bg-light" style="background-image: url('asset/img/bg.jpg');">
-   
+
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5" id="mainNav" style="">
 

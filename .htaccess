@@ -1,3 +1,6 @@
+Header set Developer1 "Nuki Pratama(Full Stack) : https://github.com/nukipratama"
+Header set Developer2 "Dzul Wulan(UI) : https://github.com/dzulwulan"
+
 ErrorDocument 404 https://telkomuniversityrun.com
 ErrorDocument 403 https://telkomuniversityrun.com
 RewriteEngine On
