@@ -26,7 +26,7 @@ if ($result->num_rows === 0) {
                         valign="middle">
                         <thead>
                             <tr class="bg-primary text-white">
-                                <!-- <th>No BIB</th> -->
+                                 <th>No</th> 
                                 <th>Nama Peserta</th>
                                 <th>Kategori Lomba</th>
                                 <th>Ukuran Baju</th>
@@ -38,9 +38,11 @@ if ($result->num_rows === 0) {
                         <tbody>
 
                             <?php
+                            $count = 0;
 while ($dbGet = $result->fetch_assoc()) {
     ?> <tr>
                                 <!-- <td>//str_pad($dbGet['no'], 4, '0', STR_PAD_LEFT)</td> -->
+                                <td><?=++$count?></td>
                                 <td><?=$dbGet['nama']?></td>
                                 <?php if ($dbGet['umur'] > 40) {
         ?>

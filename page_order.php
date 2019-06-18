@@ -50,26 +50,27 @@ while ($dbGet = $result->fetch_assoc()) {
     } else {?>
             <div class="row justify-content-center">
                 <div class="col-lg-12 align-middle ">
-                    <div class="card mt-3">
+                    <div class="card mt-3" style="background-color:#C2310D;border-radius:10px">
                         <div class="row justify-content-center p-2">
-                            <div class="col-lg-5">
-                                <img src="asset/<?=$dbGet['img']?>" class=" w-100" style="vertical-align:middle">
+                            <div class="col-lg-8">
+                                <img src="asset/<?=$dbGet['poster']?>" class="h-100 w-100" style="vertical-align:middle">
                             </div>
-                            <div class="col-lg-4 mt-2" style="vertical-align:middle">
-                                <h4 class="card-title text-primary font-weight-bold"><?=$dbGet['jenis']?><br>TUHM
+                            <div class="col-lg-4" style="vertical-align:middle">
+                                <h4 class="card-title text-white font-weight-bold"><?=$dbGet['jenis']?><br>
                                     <?=$dbGet['kategori']?> Run</h4>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Harga Tiket :
+                                    <li class="list-group-item text-white" style="background-color:#C2310D;border:0;">Harga Tiket :
                                         <b><?='Rp ' . number_format($dbGet['harga'], 3, '.', '') . ';'?></b></li>
                                 </ul>
-                            </div>
-                            <div class="col-lg-3 mt-2">
-                                <p class="text-center">Sisa Kuota : <b><?=$dbGet['kuota'] . ' Tiket'?></b></p>
+                                <p class="text-center text-white">Sisa Kuota : <b><?=$dbGet['kuota'] . ' Tiket'?></b></p>
                                 <button
-                                    class="btn tingle-btn--danger btn-primary js-tingle-modal-<?=$dbGet['idnya']?>">Pesan
+                                    class="mb-1 btn tingle-btn--danger btn-primary js-tingle-modal-<?=$dbGet['idnya']?>">Pesan
                                     Sekarang!
                                 </button>
                             </div>
+                            <!--<div class="col-lg-3 mt-2">-->
+                           
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>

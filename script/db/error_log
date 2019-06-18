@@ -121,3 +121,4 @@ Stack trace:
 [07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
 [07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
 [07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[08-May-2019 13:10:50 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nuki'@'localhost' (using password: YES) in /home/telkomu1/public_html/script/db/db.php on line 4

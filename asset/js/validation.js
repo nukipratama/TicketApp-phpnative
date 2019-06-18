@@ -48,10 +48,10 @@ $(document).ready(function () {
         Array.prototype.filter.call(forms, function (form) {
             form.addEventListener('submit', function (event) {
                 if (form.checkValidity() === false) {
-                    $('#exampleModalCenter').modal('hide')
+$('#exampleModalCenter').modal('hide')
                     event.preventDefault()
                     event.stopPropagation()
-
+                   
                 }
                 form.classList.add('was-validated')
             }, false)
