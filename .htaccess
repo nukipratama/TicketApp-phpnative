@@ -1,12 +1,12 @@
-#Header set Developer1 "Nuki Pratama(Full Stack) : https://github.com/nukipratama"
-#Header set Developer2 "Dzul Wulan(UI) : https://github.com/dzulwulan"
+Header set Developer1 "Nuki Pratama(Full Stack) : https://github.com/nukipratama"
+Header set Developer2 "Dzul Wulan(UI) : https://github.com/dzulwulan"
 
 ErrorDocument 404 https://telkomuniversityrun.com
 ErrorDocument 403 https://telkomuniversityrun.com
 RewriteEngine On
 
 RewriteCond     %{SERVER_PORT} ^80$
-#RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
 
 RewriteRule ^order.*$ page_order.php [NC,L]
 
@@ -35,7 +35,9 @@ RewriteRule ^tfr/21k.*$ tfr/page_21k.php [NC,L]
 RewriteRule ^tfr/insert7k.*$ tfr/script/db/insert7k.php [NC,L]
 RewriteRule ^tfr/insert21k.*$ tfr/script/db/insert21k.php [NC,L]
 
-RewriteRule ^volunteer/form.*$ volunteer/page_form.php [NC,L]
+RewriteRule ^volunteer/register.*$ volunteer/page_register.php [NC,L]
+RewriteRule ^volunteer/inputVolunteer.*$ volunteer/script/script_getdata.php [NC,L]
+RewriteRule ^volunteer/VolunteerRegistrationSuccess.*$ volunteer/page_success.php [NC,L]
 
 
 # BEGIN cPanel-generated php ini directives, do not edit
@@ -55,19 +57,19 @@ RewriteRule ^volunteer/form.*$ volunteer/page_form.php [NC,L]
    php_value upload_max_filesize 5M
    php_flag zlib.output_compression Off
 </IfModule>
-#<IfModule lsapi_module>
- #  php_flag asp_tags Off
-  # php_flag display_errors Off
-  # php_value max_execution_time 30
-  # php_value max_input_time 60
-  # php_value max_input_vars 1000
-   #php_value memory_limit 128M
-   #php_value post_max_size 8M
-   #php_value session.gc_maxlifetime 1440
-   #php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
-   #php_value upload_max_filesize 5M
-   #php_flag zlib.output_compression Off
-#</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value post_max_size 8M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php56"
+   php_value upload_max_filesize 5M
+   php_flag zlib.output_compression Off
+</IfModule>
 # END cPanel-generated php ini directives, do not edit
 
 # php -- BEGIN cPanel-generated handler, do not edit
