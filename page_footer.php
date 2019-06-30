@@ -5,18 +5,13 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-6  footer-info">
                     <center>
-                        <h4>Sponsored by</h4>
-                        <div class="row justify-content-center ">
-                            <img class="m-2" src="asset/img/Tel-U Legal Utama.png" width="150vh" height="100vh">
-                            <img class="m-2" src="asset/img/logo telkom warna.png" width="150vh" height="100vh">
-                            <img class="m-2" src="asset/img/ypt.png" width="150vh" height="100vh">
-                        </div>
-                        <br>
                         <h4>Supported by</h4>
+                         <hr style="background-color: #fff; height: 2px; border: 0;">
                         <div class="row justify-content-center ">
                             <img class="m-2" src="asset/img/Tel-U Legal Utama.png" width="150vh" height="100vh">
                             <img clas="m-2" src="asset/img/logo telkom warna.png" width="150vh" height="100vh">
                             <img class="m-2" src="asset/img/logo-fast.png" width="150vh" height="100vh">
+                              <img class="m-2" src="asset/img/ypt.png" width="150vh" height="100vh">
                             <img class="m-2" src="asset/img/FFUN.png" width="150vh" height="100vh">
                         </div>
                     </center>
@@ -25,17 +20,19 @@
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>MEDIA PARTNER</h4>
+                     <hr style="background-color: #fff; height: 2px; border: 0;">
                     <div class="row justify-content-center " style="margin-left:1%">
                         <img class="m-1" src="asset/img/ayo-lari.jpg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/lariku-info.jpeg" width="100vh" height="100vh">
+                         <img class="m-1" src="asset/img/kalender.jfif" width="100vh" height="100vh">
+                           <img class="m-1" src="asset/img/kalender-lari.jpeg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/sportactiva.png" width="100vh" height="100vh">
-                        <img class="m-1" src="asset/img/kalender-lari.jpeg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/bandung.jpg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/bdg-explorer.jpg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/event-banget.jpg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/event-apaaja.jpg" width="100vh" height="100vh">
                         <img class="m-1" src="asset/img/provoke.jpeg" width="100vh" height="100vh">
-
+                       
                     </div>
 
 
@@ -43,6 +40,7 @@
 
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h4>Contact Us</h4>
+                     <hr style="background-color: #fff; height: 2px; border: 0;">
                     <div class="row">
                         <div class="col-lg-12">
                             <i class="fab fa-instagram fa-3x  sr-contact-1" style="margin-left:20px"></i>

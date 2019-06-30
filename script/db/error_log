@@ -122,3 +122,12 @@ Stack trace:
 [07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
 [07-Apr-2019 09:37:53 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
 [08-May-2019 13:10:50 Asia/Bangkok] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nuki'@'localhost' (using password: YES) in /home/telkomu1/public_html/script/db/db.php on line 4
+[22-Jun-2019 22:33:09 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[22-Jun-2019 22:33:09 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[22-Jun-2019 22:33:09 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[24-Jun-2019 10:44:18 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[24-Jun-2019 10:44:18 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[24-Jun-2019 10:44:18 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90
+[26-Jun-2019 01:45:11 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 88
+[26-Jun-2019 01:45:11 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 89
+[26-Jun-2019 01:45:11 Asia/Bangkok] PHP Notice:  Undefined index: secret in /home/telkomu1/public_html/script/db/book_insert.php on line 90

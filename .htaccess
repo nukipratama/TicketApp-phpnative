@@ -35,10 +35,6 @@ RewriteRule ^tfr/21k.*$ tfr/page_21k.php [NC,L]
 RewriteRule ^tfr/insert7k.*$ tfr/script/db/insert7k.php [NC,L]
 RewriteRule ^tfr/insert21k.*$ tfr/script/db/insert21k.php [NC,L]
 
-RewriteRule ^volunteer/register.*$ volunteer/page_register.php [NC,L]
-RewriteRule ^volunteer/inputVolunteer.*$ volunteer/script/script_getdata.php [NC,L]
-RewriteRule ^volunteer/VolunteerRegistrationSuccess.*$ volunteer/page_success.php [NC,L]
-
 
 # BEGIN cPanel-generated php ini directives, do not edit
 # Manual editing of this file may result in unexpected behavior.

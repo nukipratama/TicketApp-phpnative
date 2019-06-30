@@ -43,26 +43,29 @@ include 'page_header.php';
             <br>
             <h2 class="h2">Pendaftaran TUHM 2019</h2>
             <hr>
-
+ <p class="lead ">Silahkan lakukan pendaftaran dengan memilih salah satu kategori lari dibawah. Pendaftaran akan tertutup otomatis jika slot sudah habis.</p>
             <?php
 while ($dbGet = $result->fetch_assoc()) {
     if ($dbGet['kuota'] < 1) {
     } else {?>
             <div class="row justify-content-center">
                 <div class="col-lg-12 align-middle ">
-                    <div class="card mt-3" style="background-color:#C2310D;border-radius:10px">
+                    <div class="card mt-3" style="background-color:#b82211;border-radius:10px">
                         <div class="row justify-content-center p-2">
-                            <div class="col-lg-8">
+                            <div class="col-lg-7">
                                 <img src="asset/<?=$dbGet['poster']?>" class="h-100 w-100" style="vertical-align:middle">
                             </div>
-                            <div class="col-lg-4" style="vertical-align:middle">
+                            <div class="col-lg-5 mt-3" style="vertical-align:middle">
                                 <h4 class="card-title text-white font-weight-bold"><?=$dbGet['jenis']?><br>
                                     <?=$dbGet['kategori']?> Run</h4>
+                                    <hr style="background-color: #fff; height: 2px; border: 0;">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-white" style="background-color:#C2310D;border:0;">Harga Tiket :
-                                        <b><?='Rp ' . number_format($dbGet['harga'], 3, '.', '') . ';'?></b></li>
+                                    <li class="list-group-item text-white" style="background-color:#b82211;border:0;">Harga Tiket :
+                                        <br><b><?='Rp ' . number_format($dbGet['harga'], 3, '.', '') . ';'?></b></li>
                                 </ul>
-                                <p class="text-center text-white">Sisa Kuota : <b><?=$dbGet['kuota'] . ' Tiket'?></b></p>
+                                <p class="text-center text-white" style="">Tiket sudah termasuk : <br><b>Racepack, Refreshment,<br>dan Medali untuk Finisher</b></p>
+                                <p class="text-center text-white" style="display:none">Sisa Kuota : <b><?=$dbGet['kuota'] . ' Tiket'?></b></p>
+                                 <hr style="background-color: #fff; height: 2px; border: 0;">
                                 <button
                                     class="mb-1 btn tingle-btn--danger btn-primary js-tingle-modal-<?=$dbGet['idnya']?>">Pesan
                                     Sekarang!

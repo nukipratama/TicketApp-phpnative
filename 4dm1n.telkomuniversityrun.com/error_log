@@ -3596,3 +3596,15 @@
 [13-Jun-2019 10:29:14 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/page_confirmation.php on line 35
 [13-Jun-2019 14:54:36 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/script/db.php on line 2
 [14-Jun-2019 17:01:51 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[22-Jun-2019 12:51:35 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[22-Jun-2019 14:07:41 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[22-Jun-2019 14:50:50 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 38
+[22-Jun-2019 18:25:33 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 38
+[23-Jun-2019 13:33:48 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 38
+[23-Jun-2019 13:38:27 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/script/db.php on line 2
+[25-Jun-2019 11:34:58 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[25-Jun-2019 20:50:31 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[27-Jun-2019 07:36:09 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[27-Jun-2019 15:54:24 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[28-Jun-2019 07:14:50 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
+[28-Jun-2019 14:36:32 Asia/Bangkok] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/telkomu1/public_html/4dm1n.telkomuniversityrun.com/index.php on line 44
