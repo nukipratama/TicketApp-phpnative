@@ -32,8 +32,15 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
 
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -63,8 +70,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
             <a class="nav-link js-scroll-trigger" href="#about">Login</a>
           </li>
         <?php
-        }
-        if ($auth === 1) {
+        } else {
           ?>
           <li class="nav-item">
             <p class="text-white font-weight-bold">Admin : <?= $admin ?></p>
@@ -134,6 +140,23 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
       ?>
       <hr class="m-0">
 
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+        <div class="w-100">
+          <h2 class="mb-5 ">Logout</h2>
+          <h3 class="text-danger">End current session?</h3>
+          <div class="row">
+            <div class="col-sm-3">
+              <a href="script/logout.php" class="btn btn-danger w-100 text-white">Yes</a>
+            </div>
+            <div class="col-sm-3">
+              <a href="#experience" class="btn btn-secondary w-100 text-white">No</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
       <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100">
           <h2 class="mb-5">Dashboard</h2>
@@ -182,50 +205,50 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                       </td>
                       <td role=""><a href="script/accept.php?nim=<?= $dbGet['nim'] ?>" class="btn btn-success">Accept</a></td>
                       <td role=""><a href="script/reject.php?nim=<?= $dbGet['nim'] ?>" class="btn btn-danger">Reject</a></td>
-                    </tr>
-                    <!-- motivasi modal start -->
-                    <div class="modal fade" id="motivasi<?= $dbGet['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Motivasi <?= $dbGet['nama'] ?></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <p class="lead text-dark text-justify"><?= $dbGet['motivasi'] ?></p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- motivasi modal end -->
-                    <!-- ktm modal start -->
-                    <div class="modal fade" id="ktm<?= $dbGet['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">KTM <?= $dbGet['nama'] ?></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body bg-primary">
-                            <center>
-                              <img src="https://localhost/tuhm2019/volunteer/<?= $dbGet['ktm'] ?>" alt="" class="w-100 img-fluid">
-                            </center>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <!-- motivasi modal start -->
+                      <div class="modal fade" id="motivasi<?= $dbGet['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Motivasi <?= $dbGet['nama'] ?></h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p class="lead text-dark text-justify"><?= $dbGet['motivasi'] ?></p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <!-- ktm modal end -->
+                      <!-- motivasi modal end -->
+                      <!-- ktm modal start -->
+                      <div class="modal fade" id="ktm<?= $dbGet['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">KTM <?= $dbGet['nama'] ?></h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body bg-primary">
+                              <center>
+                                <img src="https://volunteer.telkomuniversityrun.com/<?= $dbGet['ktm'] ?>" alt="" class="w-100 img-fluid">
+                              </center>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- ktm modal end -->
 
+                    </tr>
                   <?php } ?>
                 </tbody>
               </table>
@@ -281,13 +304,13 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                       <td role=""><?= $dbGet1['email'] ?></td>
                       <td role=""><?= $dbGet1['nohp'] ?></td>
 
-                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#motivasi<?= $dbGet1['nim'] ?>">Motivasi
+                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#motivasi1<?= $dbGet1['nim'] ?>">Motivasi
                       </td>
-                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#ktm<?= $dbGet1['nim'] ?>">KTM
+                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#ktm1<?= $dbGet1['nim'] ?>">KTM
                       </td>
                     </tr>
                     <!-- motivasi modal start -->
-                    <div class="modal fade" id="motivasi<?= $dbGet1['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade" id="motivasi1<?= $dbGet1['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -306,8 +329,8 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                       </div>
                     </div>
                     <!-- motivasi modal end -->
-                    <!-- ktm modal start -->
-                    <div class="modal fade" id="ktm<?= $dbGet1['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <!--ktm modal start -->
+                    <div class="modal fade" id="ktm1<?= $dbGet1['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -318,7 +341,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                           </div>
                           <div class="modal-body bg-primary">
                             <center>
-                              <img src="https://localhost/tuhm2019/volunteer/<?= $dbGet1['ktm'] ?>" alt="" class="w-100 img-fluid">
+                              <img src="https://volunteer.telkomuniversityrun.com/<?= $dbGet1['ktm'] ?>" alt="" class="w-100 img-fluid">
                             </center>
                           </div>
                           <div class="modal-footer">
@@ -339,6 +362,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
 
         </div>
       </section>
+
 
       <hr class="m-0">
 
@@ -383,13 +407,13 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                       <td role=""><?= $dbGet2['email'] ?></td>
                       <td role=""><?= $dbGet2['nohp'] ?></td>
 
-                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#motivasi<?= $dbGet2['nim'] ?>">Motivasi
+                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#motivasi2<?= $dbGet2['nim'] ?>">Motivasi
                       </td>
-                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#ktm<?= $dbGet2['nim'] ?>">KTM
+                      <td><a class="btn btn-dark text-white" data-toggle="modal" data-target="#ktm2<?= $dbGet2['nim'] ?>">KTM
                       </td>
                     </tr>
                     <!-- motivasi modal start -->
-                    <div class="modal fade" id="motivasi<?= $dbGet2['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade" id="motivasi2<?= $dbGet2['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -409,7 +433,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                     </div>
                     <!-- motivasi modal end -->
                     <!-- ktm modal start -->
-                    <div class="modal fade" id="ktm<?= $dbGet2['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade" id="ktm2<?= $dbGet2['nim'] ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -420,7 +444,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
                           </div>
                           <div class="modal-body bg-primary">
                             <center>
-                              <img src="https://localhost/tuhm2019/volunteer/<?= $dbGet2['ktm'] ?>" alt="" class="w-100 img-fluid">
+                              <img src="https://volunteer.telkomuniversityrun.com/<?= $dbGet2['ktm'] ?>" alt="" class="w-100 img-fluid">
                             </center>
                           </div>
                           <div class="modal-footer">
@@ -436,28 +460,10 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
               </table>
             </div>
           </div>
-
-
-
         </div>
       </section>
-
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-        <div class="w-100">
-          <h2 class="mb-5 ">Logout</h2>
-          <h3 class="text-danger">End current session?</h3>
-          <div class="row">
-            <div class="col-sm-3">
-              <a href="script/logout.php" class="btn btn-danger w-100 text-white">Yes</a>
-            </div>
-            <div class="col-sm-3">
-              <a href="#experience" class="btn btn-secondary w-100 text-white">No</a>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
     <?php
@@ -465,14 +471,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
     ?>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
